@@ -1,0 +1,36 @@
+.todoFormWrp {
+  margin-bottom: 30px;
+}
+
+.todoFormWrp form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoFormWrp input {
+  font-size: 1.3rem;
+  margin: 12px 15px;
+  max-width: 45%;
+  height: 30px;
+  border-radius: 10px;
+}
+.todoFormWrp input:focus {
+  border: green 5px solid;
+}
+.todoFormWrp button {
+  margin: 20px;
+  height: 50px;
+  cursor: pointer;
+  border-color: beige;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+.todoFormWrp button:hover {
+  background-color: rgb(240, 240, 155);
+}
+.todoFormWrp input,
+.todoFormWrp button {
+  padding: 10px 15px;
+  border: none;
+}
